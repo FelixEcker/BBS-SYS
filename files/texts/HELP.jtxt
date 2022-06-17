@@ -1,0 +1,12 @@
+Commands:
+    NOTE: POSTS ARE CLEARED EVERY SERVER RESTART!
+    posts  <start index> <end index>    Lists all posts in specified range
+    posts                                 Lists all currently loaded posts
+    recent                                  Lists the most recent 10 posts
+    read   <post number>                          Reads the specified post
+    post                                    Opens the Post-Creation wizard
+    reply  <post number>        Creates a reply-post to the specified post
+
+    verify <username> <password>    Creates a new Verifier with parameters
+    verify                   Opens a Prompt for logging in with a verifier
+

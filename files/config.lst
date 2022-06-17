@@ -1,0 +1,15 @@
+class SERVER:
+  int PORT = 3103
+  int FILE_SIZE_BYTES = 1048576
+  str VERIFIER_DB = "JERAN/verify.hmdb"
+end
+
+class POST_HANDLER:
+  str POST_SAVE_DIR = "%server_dir%/JERAN/posts"
+  str SAVE_SERVICE_TIME_UNIT = "SECONDS"
+  lng SAVE_SERVICE_EXEC_PERIOD = 30
+end
+
+class ADMIN:
+  bol REMOTE_SHELL = false
+end
